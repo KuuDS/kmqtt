@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "me.kuuds.kmqtt.server.App",
+            "projectName": "kmqtt",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "args": "-Dio.netty.leakDetectionLevel=paranoid"
+        }
+    ]
+}
